@@ -1,0 +1,57 @@
+.kst_inner {
+    padding: 20px;
+    box-sizing: border-box;
+    background: linear-gradient(10deg,#1395d4 20%,#256f92);
+    color: #fff;
+    min-width: 300px;
+}
+.kst_inner h2 {
+    font-size: 18px;
+    line-height: 28px;
+    text-indent: 20px;
+}
+.kst_inner label {
+    font-size: 14px;
+}
+.kst_inner form {
+    padding: 10px 20px 0;
+    box-sizing: border-box;
+}
+.kst_inner form input {
+    width: 100%;
+    border: 1px solid #1880b2;
+    padding: 10px 20px;
+    color: #ababab;
+    box-sizing: border-box;
+}
+.kst_inner .col {
+    display: inline-block;
+    width: 32%;
+    padding: 20px 5px;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+.kst_inner .col div+span {
+    font-weight: normal;
+    font-size: 12px;
+}
+.kst_inner .col div {
+    width: 100%;
+    background: #fff;
+    min-height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #acacac;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.kst_inner #copyright {
+    text-align: right;
+    font-size: 12px;
+}
+.kst_inner #copyright a {
+    color: #91daf5;
+    font-size: 10px;
+    text-transform: uppercase;
+}

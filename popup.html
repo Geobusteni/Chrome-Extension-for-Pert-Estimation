@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Codeable PERT Estimation</title>
+    <link rel="stylesheet" href="popup.css" type="text/css" />
+    <script type="text/javascript" src="jquery.js"></script>
+</head>
+<body>
+<div class="kst_inner">
+   <h2>Pert Estimate calculator:</h2>
+    <form action="" id="kst_estimation">
+        <input type="text" id="kst_amount" placeholder="Best Case"/>
+    </form>
+    <div class="col">
+        <div id="kst_real_amount">0</div>
+        <span>No Case</span>
+    </div>
+    <div class="col">
+        <div id="kst_worst_case">0</div>
+        <span>Worst Case</span>
+    </div>
+    <div class="col">
+        <div id="kst_risk_amount">0</div>
+        <span>Real Case</span>
+    </div>
+    <hr/>
+    <div>Price (rounded)</div>
+    <div class="col">
+        <h4>No Case Estimation</h4>
+        <div id="kst_clientpay_nocase">0</div>
+        <span>Client</span>
+        <div id="kst_youget_nocase">0</div>
+        <span>You</span>
+    </div>
+    <div class="col">
+        <h4>Worst Case Estimation</h4>
+        <div id="kst_clientpay_worst">0</div>
+        <span>Client</span>
+        <div id="kst_youget_worst">0</div>
+        <span>You</span>
+    </div>
+    <div class="col">
+        <h4>Real Case Estimation</h4>
+        <div id="kst_clientpay_real">0</div>
+        <span>Client</span>
+        <div id="kst_youget_real">0</div>
+        <span>You</span>
+    </div>
+    <div id="copyright">
+        Powered by <a href="https://kul.site">KULSITE</a>
+    </div>
+</div>
+<script type="text/javascript" src="kst_pert.js"></script>
+</body>
+</html>
